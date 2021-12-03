@@ -2,9 +2,9 @@
 
 Algorithm of the project:
 1. Main process will create 3 threads pthread_create()
-2. 1. Thread will select an item randomly
-3. 2. Thread will select an item randomly too
-4. 3. Thread will select an item randomly too
+2. First thread will select an item randomly
+3. Second thread will select an item randomly too
+4. Third thread will select an item randomly too
 5. Then they will compare their items
 6. Score of the winning thread will be increased
 7. Game will continue until one of the threads reaches 5 points.
